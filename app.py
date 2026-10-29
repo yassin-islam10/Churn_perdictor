@@ -4,7 +4,7 @@ import streamlit as st
 from pathlib import Path
 
 BASE_DIR = Path(__file__).parent
-MODELS_DIR = BASE_DIR / "models"
+MODELS_DIR = BASE_DIR / "Models"
 
 st.set_page_config(page_title="Churn Predictor", page_icon="📞")
 st.title("📞 Customer Churn Predictor")
